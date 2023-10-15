@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Catherine Kwee</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo1">Catherine Kwee</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#portofolio">PORTOFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo1">Catherine Kwee</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+                    <li><a href="#home" onclick="toggleMenu()">HOME</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">SKILLS</a></li>
+                    <li><a href="#portofolio" onclick="toggleMenu()">PORTOFOLIO</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section-pic-container">
+                <img src="./assets/profile-pic.jpg" alt="Profile Picture">
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">Hello,</p>
+                <h2 class="title1">I'm Catherine Kwee</h2>
+                <p class="section_text_p2">From Bina Nusantara University</p>
+                <div class="btn-container">
+                    <button class="btn btn2" onclick="window.open('./assets/CatherineKwee_CV.pdf')">Download CV</button>
+                    <button class="btn btn1" onclick="location.href='#about'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/catherine-kwee-01b51328a/'">
+                    <img src="./assets/github.png" alt="Github profile" class="icon" onclick="location.href='https://github.com/keith-kw'">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="section-container">
+                <div class="about-pic-container">
+                    <img src="./assets/profile-pic.jpg" alt="About Picture" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <p class="about_text_p1">Get To Know More</p>
+                    <h3 class="about-title">About Me</h3>
+                    <p class="about-details">I am a passionate computer science student with a deep enthusiasm for both back-end and front-end development, as well as software engineering. From crafting robust, efficient algorithms to creating engaging, user-friendly interfaces, I relish the intricate challenges and the creative problem-solving that these domains offer. My journey in computer science has equipped me with a strong foundation in data structures, programming languages, and software design principles. I am dedicated to honing my skills, learning new technologies, and collaborating with like-minded individuals to build innovative software solutions that make a meaningful impact. Whether it's designing elegant user experiences, or architecting complex systems, I'm excited to embrace the ever-evolving world of technology and contribute my knowledge and passion to its growth.</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2 class="s-title">Skills</h2>
+            <div class="project-details-container">
+                <div class="about-containers">
+                    <div class="article-containers1">
+                        <article>
+                            <img src="./assets/c.png" alt="skills icon" class="logo">
+                            <div>
+                               <h3>C</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/python.png" alt="skills icon" class="logo">
+                            <div>
+                                <h3>Python</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/html5.png" alt="skills icon" class="logo">
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="article-containers2">
+                        <article>
+                            <img src="./assets/cpp.png" alt="skills icon" class="logo">
+                            <div>
+                                <h3>C++</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/java.jpg" alt="skills icon" class="logo">
+                            <div>
+                                <h3>Java</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/css.png" alt="skills icon" class="logo">
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="article-containers3">
+                        <article>
+                        <img src="./assets/csharp.png" alt="skills icon" class="logo">
+                        <div>
+                            <h3>C#</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./assets/mysql.png" alt="skills icon" class="logo">
+                            <div>
+                                <h3>My SQL</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/js.png" alt="skills icon" class="logo">
+                            <div>
+                                <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portofolio">
+            <p class="section_text_p1">Project Experience</p>
+            <p class="section_text_p3">Explore the project I've worked on so far</p>
+            <div class="portofolio-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/aquamarine.jpg" alt="Project 1" class="project-img">
+                        </div>
+                        <h2 class="project-title">Aquamarine</h2>
+                        <p class="description">Aquamarine is a website project that created by using HTML, CSS, and JavaScript for the logic function. To make this website attractive a
+                            moving background is used to give a real experience into the sea and on hover effect to improve User Experience. This website containing
+                            the information of the unique sea life that gives basic information about unique animals. This website focused on giving the knowledge
+                            about sea life and raising awareness about the impact of plastic to their habitats. The population and information is gathered from the
+                            International Union for Conservation of Nature. The aim of this project is to make a website with good interaction design and able to use
+                            model and frameworks related with the interaction design. As the project developer of this website I did many research and learn how to
+                            make a website with good UI/UX.
+                            </p>
+                        <div class="btn-container">
+                            <button class="btn btn2 project-btn" onclick="location.href='https://github.com/keith-kw/Aquamarine'";>Github</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/mtgraphy.jpg" alt="Project 2" class="project-img">
+                        </div>
+                        <h2 class="project-title">MtGraphy</h2>
+                        <p class="description">MtGraphy is a prototype for international photography service selling company that represent a photography company by displaying the
+                            taken photos categorized by its orientation and also a subscription page for user when interested to take a photo on the provided theme.
+                            This project is created by using HTML, CSS, and JavaScript for the logic function. The aim of this project is to fulfill the requirement from
+                            the company which is a website that represent the company while considering the color, layout, and consistency when designing the
+                            prototype. To make this website attractive and represent the company, the homepage is designed by using carousel for the taken image with
+                            some quotes, and when the gallery is accessed the hover on the photos, and all the navigation bar will improve User Experience. As the
+                            project developer for this website I managed to design the website prototype as requested and I managed to gave an extra effect to make
+                            this website more attractive.
+                            </p>
+                        <div class="btn-container">
+                            <button class="btn btn2 project-btn" onclick="location.href='https://github.com/keith-kw/MtGraphy'";>Github</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/raamen.jpg" alt="Project 3" class="project-img">
+                        </div>
+                        <h2 class="project-title">RAAMEN</h2>
+                        <p class="description">RAAMEN is a project from Pattern Design Software course, where RAAMEN is a web-based online ramen selling application. The aim of
+                            this project is able to create a website is by using ASP.NET and Domain Driven Design (DDD) method for developing the website and
+                            also using SAP Crystal Report for the Transaction Report. This website can be accessed by 3 roles, which are Member that can buy and
+                            view the menu and access the purchase history. Staff can handle the Member order, and insert, update and delete the ramen, and also view
+                            all the customer list. Also, Admin have both Member and Staff privilege, and view all the transaction reports. On the transaction history
+                            when the user click the detail button it will redirect to the transaction detail page using URL Query String. The challenges while working on
+                            this project are making sure the the view on the Crystal report is correct and also applying the DDD method correctly, which I as the
+                            project developer managed to overcome it by studying and finding more references from similar and online discussion.
+                            </p>
+                        <div class="btn-container">
+                            <button class="btn btn2 project-btn" onclick="location.href='https://github.com/keith-kw/RAAMEN'";>Github</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/sipalingcerdas.png" alt="Project 4" class="project-img">
+                        </div>
+                        <h2 class="project-title">Si Paling Cerdas</h2>
+                        <p class="description">Si Paling Cerdas is a desktop application and an educational game based on a quiz game where players can compete with each other on
+                            various knowledge topics. Every match have a certain duration which is 5 minutes and if the players answer the question correctly, a point
+                            will be added to their score. From all the accumulated score, player can get into the leaderboard or see other players on the leaderboard
+                            .This game is made for Software Engineering Course. The challenges as the designer of the project are to create a good UI/UX design and
+                            ensure that all the features required by the user have been fulfilled. The challenges as the project manager are ensuring smooth
+                            communication among team members, planning the project such as defining the scope, making the schedule step based on the Gantt chart,
+                            and evaluating whether the final result has fulfilled all the requirements which had been agreed beforehand.
+                            </p>
+                        <div class="btn-container">
+                            <button class="btn btn2 project-btn" onclick="location.href='https://github.com/Skoliosis/Si-Paling-Cerdas'";>Github</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <p class="section_text_p4">Get in Touch</p>
+            <h3 class="contact-title">Contact Me</h3>
+            <div class="contact-container">
+            <div class="info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:catherinekwee00@gmail.com">catherinekwee00@gmail.com</a></p>
+            </div>
+            <div class="info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/catherine-kwee-01b51328a/">LinkedIn</a></p>
+            </div>
+            <div class="info-container">
+                <img src="./assets/wa.png" alt="whatsapp icon" class="icon contact-icon">
+                <p><a href="https://wa.me/6281351217252">+62 813-5121-7252</a></p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
